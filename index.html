@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sporta Klubs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form label, form input, form textarea {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="path-to-your-logo.jpg" alt="Kluba logotips">
+            <h1>Sporta Klubs</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Sākumlapa</a></li>
+                <li><a href="#schedule">Nodarbību Grafiks</a></li>
+                <li><a href="#about">Par mums</a></li>
+                <li><a href="#gallery">Galerija</a></li>
+                <li><a href="#contact">Kontakti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Laipni lūdzam mūsu sporta klubā!</h2>
+        <p>Šeit var ievietot īsu ievadu par klubu.</p>
+    </section>
+
+    <section id="schedule">
+        <h2>Nodarbību Grafiks</h2>
+        <h3>Kapoeira</h3>
+        <p>Otrdiena 20:00-21:30<br>Ceturtdiena 20:00-21:30</p>
+        <h3>Aikido</h3>
+        <p>20:00-21:30</p>
+        <h3>Bokss</h3>
+        <p>Pirmdiena 18:30-20:00<br>Trešdiena 18:30-20:00<br>Piektdiena 18:30-20:00</p>
+        <h3>Džudo</h3>
+        <h4>Jaunākā grupa</h4>
+        <p>Pirmdiena 17:30-18:30<br>Trešdiena 17:30-18:30<br>Piektdiena 17:30-18:30</p>
+        <h4>Vidējā grupa</h4>
+        <p>Otrdiena 16:30-18:30<br>Ceturtdiena 16:30-18:30<br>Piektdiena 16:30-18:30</p>
+        <h4>Vecākā grupa</h4>
+        <p>Otrdiena 17:00-18:30<br>Ceturtdiena 17:00-18:30<br>Piektdiena 16:30-18:00</p>
+        <h3>Tekvando</h3>
+        <p>Svētdiena 20:00-21:30</p>
+        <h3>Roku cīņas</h3>
+        <p>Otrdiena 18:30-20:00<br>Ceturtdiena 18:30-20:00</p>
+    </section>
+
+    <section id="about">
+        <h2>Par mums</h2>
+        <p>Informācija par klubu, instruktoru komanda, kluba misija un vērtības.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Galerija</h2>
+        <p>Fotogrāfijas no treniņiem un sacensībām.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakti</h2>
+        <p>Adrese: [Jūsu adrese]<br>Telefons: [Jūsu telefona numurs]<br>E-pasts: [Jūsu e-pasta adrese]</p>
+        <form>
+            <label for="name">Vārds:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">E-pasts:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Ziņojums:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Sūtīt">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sporta Klubs. Visas tiesības aizsargātas.</p>
+    </footer>
+</body>
+</html>
